@@ -1,0 +1,258 @@
+/* ===========================
+   SMART LENDER
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
+
+    min-height:100vh;
+
+    overflow-x:hidden;
+
+    color:white;
+
+}
+
+/* Overlay */
+
+.overlay{
+
+    position:fixed;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.25);
+
+    z-index:-1;
+
+}
+
+/* Heading */
+
+.title{
+
+    font-size:3rem;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+.subtitle{
+
+    color:#dbeafe;
+
+    font-size:18px;
+
+}
+
+/* Glass Card */
+
+.glass-card{
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:25px;
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    color:white;
+
+}
+
+/* Labels */
+
+label{
+
+    margin-bottom:6px;
+
+    display:block;
+
+    font-weight:500;
+
+}
+
+/* Inputs */
+
+.form-control,
+
+.form-select{
+
+    border-radius:12px;
+
+    padding:12px;
+
+    border:none;
+
+    background:rgba(255,255,255,.95);
+
+    transition:.3s;
+
+}
+
+.form-control:focus,
+
+.form-select:focus{
+
+    box-shadow:0 0 10px #38bdf8;
+
+    border:none;
+
+}
+
+/* Button */
+
+.predict-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:white;
+
+    background:linear-gradient(90deg,#2563eb,#0ea5e9);
+
+    transition:.35s;
+
+}
+
+.predict-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+/* Bottom Cards */
+
+.info-card{
+
+    margin-top:20px;
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    backdrop-filter:blur(12px);
+
+    transition:.35s;
+
+    color:white;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.info-card h4{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+.info-card p{
+
+    margin-top:8px;
+
+    color:#dbeafe;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.title{
+
+    font-size:2.2rem;
+
+}
+
+.glass-card{
+
+    padding:10px;
+
+}
+
+.predict-btn{
+
+    font-size:16px;
+
+}
+
+.info-card{
+
+    margin-bottom:20px;
+
+}
+.table{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    width:45%;
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.table td{
+
+    background:#f8fafc;
+
+}
+.alert-info{
+
+    border-radius:15px;
+
+    font-weight:600;
+
+    background:#dbeafe;
+
+    color:#1e3a8a;
+
+    border:none;
+
+}
+
+}
