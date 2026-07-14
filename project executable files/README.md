@@ -15,6 +15,15 @@ The application helps financial institutions make faster, consistent, and data-d
 
 The trained model is deployed using **Flask**, allowing users to submit loan details through a web interface and receive real-time predictions.
 
+
+
+
+## 🔗 Live Demo
+
+**Application:** https://smart-lender-ai-loan-prediction.onrender.com
+
+**Source Code:** https://github.com/GANTACHERADEEP/Smart-Lender-AI-Loan-Prediction
+
 ---
 
 ## 🚀 Features
