@@ -10,6 +10,8 @@ An end-to-end Machine Learning web application that predicts whether a loan appl
 
 **Source Code:** https://github.com/GANTACHERADEEP/Smart-Lender-AI-Loan-Prediction
 
+** Video Demo ** https://drive.google.com/file/d/1kBEQQ8KwBFyGtVK6eLtEqAZ7hMhDVKjA/view?usp=drive_link
+
 ---
 
 ## 📌 Project Overview
